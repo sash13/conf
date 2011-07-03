@@ -1,0 +1,1 @@
+/home/coirius/.irssi/scripts/bitlbee_join_notice.pl

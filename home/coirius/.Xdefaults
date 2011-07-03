@@ -1,0 +1,55 @@
+!-------------------------------------------------------------------------------
+! File: ~/.Xdefaults
+! Authore: Vladyslav "coirius" Chyzhevskyi <coirius@coirius.com>
+!-------------------------------------------------------------------------------
+
+! Terminal Colors
+*color0: #262626
+*color1: #d70000
+*color2: #5f8700
+*color3: #af8700
+*color4: #0087ff
+*color5: #af005f
+*color6: #00afaf
+*color7: #d7d7af
+*color8: #1c1c1c
+*color9: #d75f00
+*color10: #4e4e4e
+*color11: #585858
+*color12: #808080
+*color13: #5f5faf
+*color14: #8a8a8a
+*color15: #ffffd7
+
+! Xft
+Xft.dpi: 96
+Xft.antialias: true
+Xft.rgba: rgb
+Xft.hinting: true
+Xft.hintstyle: hintslight
+
+! URxvt
+URxvt.geometry: 140x35
+URxvt.scrollBar: false
+URxvt.background: #262626
+URxvt.foreground: #ffffd7
+URxvt.font: xft:Monaco:pixelsize=11
+URxvt.perl-ext: default,url-select
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.urlLauncher: firefox
+URxvt.underlineURLs: true
+
+! Xcursor
+Xcursor.theme: OpenZone
+Xcursor.size: 8
+
+! Xlock
+XLock.mode: blank
+XLock.font: -*-monaco-*-*-*-*-*-*-*-*-*-*-*-
+XLock.planfont: -*-monaco-*-*-*-*-*-*-*-*-*-*-*-
+XLock.messagefont: -*-monaco-*-*-*-*-*-*-*-*-*-*-*-
+XLock.username: login:
+XLock.password: password:
+XLock.info: session locked
+XLock.description: off
+XLock.icongeometry: 32x32

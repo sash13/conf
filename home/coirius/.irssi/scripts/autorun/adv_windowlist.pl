@@ -1,0 +1,1 @@
+/home/coirius/.irssi/scripts/adv_windowlist.pl

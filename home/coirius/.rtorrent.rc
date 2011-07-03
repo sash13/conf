@@ -1,0 +1,32 @@
+#min_peers = 40
+#max_peers = 100
+#min_peers_seed = 10
+#max_peers_seed = 50
+#max_uploads =15
+download_rate = 0
+upload_rate = 0
+directory = /home/coirius/tmp
+session = /home/coirius/.rtorrent-session
+schedule = watch_directory,5,5,load_start=/home/coirius/tmp/*.torrent
+#schedule = untied_directory,5,5,stop_untied=/home/coirius/tmp/*.torrent
+#schedule = low_diskspace,5,60,close_low_diskspace=100M
+#schedule = ratio,60,60,stop_on_ratio=200,200M,2000
+#ip = 127.0.0.1
+#ip = rakshasa.no
+#bind = 127.0.0.1
+#bind = rakshasa.no
+port_range = 6890-6999
+port_random = yes
+check_hash = yes
+use_udp_trackers = yes
+#schedule = ip_tick,0,1800,ip=rakshasa
+#schedule = bind_tick,0,1800,bind=rakshasa
+#encryption = allow_incoming,enable_retry,prefer_plaintext
+#hash_read_ahead = 10
+#hash_interval = 100
+#hash_max_tries = 10
+#max_open_files = 128
+#max_open_sockets = <no default>
+#schedule = "ip_tick1,5,10,ip=torretta"
+#schedule = "ip_tick2,10,10,ip=lampedusa"
+#schedule_remove = "ip_tick1"

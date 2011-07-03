@@ -1,0 +1,9 @@
+[Bootstrap]
+HideEula=1
+Logo=1
+NativeProgress=true
+ProgressBarColor=126,170,23
+ProgressFrameColor=207,208,211
+ProgressPosition=164,225
+ProgressSize=319,10
+URE_BOOTSTRAP=${ORIGIN}/fundamentalrc
