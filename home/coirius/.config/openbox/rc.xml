@@ -43,7 +43,7 @@
   </placement>
   <theme>
     <name>Litestyle</name>
-    <titleLayout>NLIMC</titleLayout>
+    <titleLayout>LMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
       N: window icon
@@ -302,11 +302,11 @@
         <command>amixer set Master,0 mute</command>
       </action>
     </keybind>
-	<keybind key="A-l">
-		<action name="Execute">
-			<command>xlock</command>
-		</action>
-	</keybind>
+    <keybind key="A-l">
+      <action name="Execute">
+        <command>xlock</command>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>8</dragThreshold>

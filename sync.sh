@@ -24,8 +24,6 @@ else
 	/etc/X11/xorg.conf.d/10-keyboard.conf
 	/etc/mpd.conf
 	/etc/rc.conf
-	/etc/libreoffice
-	/etc/rc.conf
 	"
 
 	for svc in $DOTFILES; do
