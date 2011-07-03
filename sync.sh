@@ -45,12 +45,12 @@ else
 	if [ ! -d ".git" ]; then
 		git init
 		git add .
-		git commit -m 'synced `date`'
+		git commit -m 'synced'
 		git remote add github git@github.com:coirius/conf.git
 		git push github master
 	else
 		git add .
-		git commit -m 'synced `date`'
+		git commit -m 'synced'
 		git push github master
 	fi
 fi
