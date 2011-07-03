@@ -29,6 +29,8 @@ else
 	MISC="
 	/usr/share/themes/Litestyle
 	/usr/share/fonts/TTF/monaco.ttf
+	/usr/share/slim/themes/default/background.jpg
+	/usr/share/slim/themes/default/background_backup.jpg
 	"
 
 	for svc in $DOTFILES; do
