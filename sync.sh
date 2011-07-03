@@ -30,16 +30,10 @@ else
 
 	for svc in $DOTFILES; do
 		cp -rfu --parents $svc .
-		if [ "$?" -eq "0" ]; then
-			echo "Copied $svc to `pwd`"
-		fi
 	done
 
 	for svc in $CONFIGS; do
 		cp -rfu --parents $svc .
-		if [ "$?" -eq "0" ]; then
-			echo "Copied $svc to `pwd`"
-		fi
 	done
 
 	if [ ! -d ".git" ]; then
