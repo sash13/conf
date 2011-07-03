@@ -26,11 +26,20 @@ else
 	/etc/rc.conf
 	"
 
+	MISC="
+	/usr/share/themes/Litestyle
+	/usr/share/fonts/TTF/monaco.ttf
+	"
+
 	for svc in $DOTFILES; do
 		cp -rfu --parents $svc .
 	done
 
 	for svc in $CONFIGS; do
+		cp -rfu --parents $svc .
+	done
+
+	for svc in $MISC; do
 		cp -rfu --parents $svc .
 	done
 
