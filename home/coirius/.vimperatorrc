@@ -1,15 +1,6 @@
 set toolbars=tabs
 set toolbars+=noaddons,nomenu,nobookmarks,nonavigation
-set noscrollbars
 set hlsearch
-
-map <C-l> gt
-map <C-h> gT
-
-map <S-Right> :tabmove! +1<CR>
-map <S-Left> :tabmove! -1<CR>
-map <C-L> :tabmove! +1<CR>
-map <C-H> :tabmove! -1<CR> "colors
 
 com ns emenu View.Page Style.No Style
 com adblock emenu View.Adblock Plus: Blockable Items

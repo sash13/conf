@@ -3,6 +3,7 @@
 if [ "$1" == "restore" ]; then
 	cp -rf etc /
 	cp -rf home /
+	cp -rf usr /
 else
 	DOTFILES="
 	$HOME/.Xdefaults
