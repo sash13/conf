@@ -2,6 +2,9 @@ set toolbars=tabs
 set toolbars+=noaddons,nomenu,nobookmarks,nonavigation
 set hlsearch
 
+map <silent> <C-Right> :tabnext<CR>
+map <silent> <C-Left> :tabprevious<CR>
+
 com ns emenu View.Page Style.No Style
 com adblock emenu View.Adblock Plus: Blockable Items
 com scrap emenu ScrapBook.Scrapbook
