@@ -12,6 +12,7 @@ else
 	$HOME/.conkyrc
 	$HOME/.fehbg
 	$HOME/.gitconfig
+    $HOME/.gitignore.global
 	$HOME/.gtkrc-2.0
 	$HOME/.irssi
 	$HOME/.rtorrent.rc
