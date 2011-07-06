@@ -96,7 +96,7 @@ alias ls='ls --color=auto'
 alias la='ls -la'
 alias ll='ls -l'
 alias cl='clear'
-alias c='cl'
+alias c='clear'
 alias ..='cd ..;' # now I can '.. .. ..' to move up multiple directories
 alias mem='free -m'
 alias df='df -h'
