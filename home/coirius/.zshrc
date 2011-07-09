@@ -46,9 +46,9 @@ setopt HIST_IGNORE_SPACE
 setopt SH_WORD_SPLIT
 setopt nohup
 # Vars used later on by Zsh
-export EDITOR="vim"
-export BROWSER=chromium
-export XTERM="urxvt"
+export EDITOR='vim'
+export BROWSER='firefox'
+export XTERM='urxvt'
 
 # Stuff to make my life easier {{{
 # allow approximate
@@ -106,6 +106,8 @@ alias tmux='tmux -2'
 alias syslog='tail -f /var/log/syslog.log'
 alias home='cd $HOME'
 alias back='cd -'
+alias q='exit'
+alias ncmpc='ncmpc -c -h 127.0.0.1 -p 6600'
 # }}}
 
 # run tmux automatically
