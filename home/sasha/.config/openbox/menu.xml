@@ -96,9 +96,9 @@
       </startupnotify>
     </action>
   </item>
-  <item label="Konsole">
+  <item label="Sakura">
     <action name="Execute">
-      <command>konsole</command>
+      <command>sakura</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>

@@ -46,9 +46,9 @@ setopt HIST_IGNORE_SPACE
 setopt SH_WORD_SPLIT
 setopt nohup
 # Vars used later on by Zsh
-export EDITOR='vim'
-export BROWSER='firefox'
-export XTERM='urxvt'
+export EDITOR="nano"
+export BROWSER=midori
+export XTERM="sakura"
 
 # Stuff to make my life easier {{{
 # allow approximate
@@ -96,7 +96,7 @@ alias ls='ls --color=auto'
 alias la='ls -la'
 alias ll='ls -l'
 alias cl='clear'
-alias c='clear'
+alias c='cl'
 alias ..='cd ..;' # now I can '.. .. ..' to move up multiple directories
 alias mem='free -m'
 alias df='df -h'
@@ -106,8 +106,6 @@ alias tmux='tmux -2'
 alias syslog='tail -f /var/log/syslog.log'
 alias home='cd $HOME'
 alias back='cd -'
-alias q='exit'
-alias ncmpc='ncmpc -c -h 127.0.0.1 -p 6600'
 # }}}
 
 # run tmux automatically

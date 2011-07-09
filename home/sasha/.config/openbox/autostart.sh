@@ -43,8 +43,8 @@ if which /usr/lib/openbox/xdg-autostart >/dev/null 2>&1; then
   /usr/lib/openbox/xdg-autostart $DESKTOP_ENV
 fi
 
-/bin/sh /home/coirius/.fehbg &
+/bin/sh /home/sasha/.fehbg &
 conky &
-export EDITOR=vim
+export EDITOR=nano
 export BROWSER=chromium
 export GTK2_RC_FILES="$HOME/.gtkrc-2.0"

@@ -20,7 +20,7 @@ gap_y 3
 alignment top_left
 
 #behaviour
-update_interval 1
+update_interval 3
 
 #colour
 default_color  808080
@@ -35,4 +35,4 @@ use_spacer none
 minimum_size 1024 0
 
 TEXT
-${alignc}${color c6c6c6}${time %H:%M:%S %d.%m.%Y} ${color}KERNEL: ${color ffffff}$kernel${color} UPTIME: ${color ffffff}$uptime${color} CPU: ${color ffffff}${cpu cpu0}%${color} RAM: ${color ffffff}$mem${color} BAT:${color ffffff}${exec acpi | cut -d ',' -f 2}${color} UP: ${color ffffff}${upspeed wlan0}${color bdc6b1}/${color ffffff}${totalup wlan0}${color} DOWN: ${color ffffff}${downspeed wlan0}${color bdc6b1}/${color ffffff}${totaldown wlan0}${color} DISK IO: ${color ffffff}${diskio}${color}
+${alignc}${color c6c6c6}${time %H:%M:%S %d.%m.%Y} ${color}KERNEL: ${color ffffff}$kernel${color} UPTIME: ${color ffffff}$uptime${color} CPU: ${color ffffff}${cpu cpu0}%${color} RAM: ${color ffffff}$mem${color} BAT:${color ffffff}${exec acpi | cut -d ',' -f 2}${color} UP: ${color ffffff}${upspeed wlan0}${color bdc6b1}/${color ffffff}${totalup wlan0}${color} DOWN: ${color ffffff}${downspeed wlan0}${color bdc6b1}/${color ffffff}${totaldown wlan0}${color}
