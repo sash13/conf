@@ -11,8 +11,6 @@ else
 	$HOME/.config/openbox/
 	$HOME/.conkyrc
 	$HOME/.fehbg
-	$HOME/.gitconfig
-    $HOME/.gitignore.global
 	$HOME/.gtkrc-2.0
 	$HOME/.irssi
 	$HOME/.rtorrent.rc
@@ -51,7 +49,7 @@ else
 		git init
 		git add .
 		git commit -m 'synced'
-		git remote add github git@github.com:coirius/conf.git
+		git remote add github git@github.com:sash13/conf.git
 		git push github master
 	else
 		git add .

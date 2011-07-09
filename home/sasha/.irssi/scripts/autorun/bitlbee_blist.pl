@@ -1,0 +1,1 @@
+/home/coirius/.irssi/scripts/bitlbee_blist.pl
