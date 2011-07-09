@@ -50,11 +50,11 @@ else
 		git add .
 		git commit -m 'synced'
 		git remote add github git@github.com:sash13/conf.git
-		git push github master
+		git push origin master
 	else
 		git add .
 		git commit -m 'synced'
-		git push github master
+		git push origin master
 	fi
 fi
 exit 0
