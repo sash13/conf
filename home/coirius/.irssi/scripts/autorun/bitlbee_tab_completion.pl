@@ -1,1 +1,0 @@
-/home/coirius/.irssi/scripts/bitlbee_tab_completion.pl

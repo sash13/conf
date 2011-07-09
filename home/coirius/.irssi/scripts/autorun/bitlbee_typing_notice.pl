@@ -1,1 +1,0 @@
-/home/coirius/.irssi/scripts/bitlbee_typing_notice.pl
